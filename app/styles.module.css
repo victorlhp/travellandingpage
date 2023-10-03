@@ -29,3 +29,33 @@
     padding-bottom: 0;
     width: 570px;
 }
+
+.titulo {
+    width: 521.135px;
+    height: 191.042px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 78.65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133%; /* 104.605px */
+    letter-spacing: 1.966px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.sub {
+    width: 543.047px;
+    height: 102.893px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20.285px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%; /* 34.485px */
+    letter-spacing: 0.304px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
