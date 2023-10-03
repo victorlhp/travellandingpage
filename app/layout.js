@@ -32,6 +32,15 @@ function Menu({children, x, y}) {
   );
 }
 
+function Contato({telefone}) {
+  return (
+    <div className={styles.contato}>
+      <img src='phone icon.png' alt='Phone'/>
+      <span>{telefone}</span>
+    </div>
+  );
+}
+
 function Titulo({x, y}) {
   return (
     <h1 style={{left: x, top: y}}className={styles.titulo}>Your perfect 
@@ -50,7 +59,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header>
+        <header className={styles.cabecalho}>
           
           <Logo x={135} y={53}/>
           <Menu x={435} y={60}> 
@@ -59,7 +68,10 @@ export default function RootLayout({ children }) {
           <ItemMenu nome="Contact"/>
           <ItemMenu nome="Blog"/>
           <ItemMenu nome="Videos"/>
+          
         </Menu>
+
+        <Contato className={styles.contato} telefone={'+38(097)8849989'}/>
         </header>
         <main>
         <Titulo x={135} y={238}/>

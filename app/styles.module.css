@@ -1,8 +1,24 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    top: 53px;
+    left: 135px;
+    width: 75%;
+    
+}
+
+.contato{
+    display: flex;
+    font-size: 19.205px;
+}
+
 .logo {
     font-size: 34.375px;
-    margin-top: 0;
-    margin-bottom: 0;
-    position: absolute;
+    /* margin-top: 0;
+    margin-bottom: 0; */
+    /* position: absolute; */
     
 }
 
@@ -22,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    position: absolute;
+    /* position: absolute; */
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
