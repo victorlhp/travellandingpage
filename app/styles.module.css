@@ -65,3 +65,12 @@
     bottom: 815px;
     margin: 0;
 }
+
+.palms {
+    width: 765px;
+    height: 765px;
+    flex-shrink: 0;
+    position: absolute;
+    
+}
+

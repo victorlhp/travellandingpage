@@ -4,6 +4,10 @@ import bali from '../public/bali.png'
 import cyprus from '../public/cyprus.png'
 import hawaii from '../public/hawaii.png'
 import seta from '../public/arrow-right.svg'
+import palms from '../public/Palms.png'
+import ellipse from '../public/Ellipse.png'
+import image from '/public/image1.png'
+import image2 from 'public/image2.png'
 
 function Titulo({x, y}) {
   return (
@@ -43,6 +47,20 @@ function Cards({children, x, y}) {
   )
 }
 
+function Palms({x, y, children}) {
+  return (
+   <div style={{left: x, top: y}} className={styles.palms}>
+     
+     {children}
+   </div>
+  );
+}
+
+function Forma({imagem}) {
+  
+  
+}
+
 export default function Home() {
   return (
     <>
@@ -55,6 +73,7 @@ export default function Home() {
 
       <Titulo></Titulo>
       <Texto></Texto>
+      <Palms x={646} y={191}/>
     </>
   )
 }

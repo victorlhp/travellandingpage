@@ -7,6 +7,7 @@ import twitter from '../public/twitter.svg'
 import linkedin from '../public/linkedin.svg'
 
 
+
 export const metadata = {
   title: 'Travel Landing Page',
 }
@@ -61,6 +62,8 @@ function RedesSociais({x, y}) {
     </div>
   )
 }
+
+
 
 export default function RootLayout({ children }) {
   return (
