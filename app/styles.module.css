@@ -1,77 +1,67 @@
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    align-items: center;
-    top: 53px;
-    left: 135px;
-    width: 75%;
-    
-}
-
-.contato{
-    display: flex;
-    font-size: 19.205px;
-}
-
 .logo {
     font-size: 34.375px;
-    /* margin-top: 0;
-    margin-bottom: 0; */
-    /* position: absolute; */
-    
+    /* font-weight: 700; */
+    margin-bottom: 0;
+    margin-top: 0;
+    position: absolute;
 }
 
 .comercial {
     color: #FFB9AF;
 }
 
-.itemMenu {
-    font-family: Montserrat;
-    font-size: 24.527px; 
-    font-weight: 500; 
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .menu {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    /* position: absolute; */
-    margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    position: absolute;
     width: 570px;
 }
 
-.titulo {
-    width: 521.135px;
-    height: 191.042px;
-    color: #FFF;
+.itemMenu {
     font-family: Montserrat;
-    font-size: 78.65px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 133%; /* 104.605px */
-    letter-spacing: 1.966px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
+    font-size: 24.527px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-.sub {
-    width: 543.047px;
-    height: 102.893px;
+.redesSociais {
+    align-items: center;
+    display: flex;
+    gap: 38px;
+    position: absolute;
+}
+
+.contato{
+    position: absolute;
+    top: 63px;
+    left: 1135px;
+    right: 136px;
+    bottom: 813.95px;
+    width: 169px;
+    height: 23.045px;
+    flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
-    font-size: 20.285px;
+    font-size: 19.205px;
     font-style: normal;
     font-weight: 500;
-    line-height: 170%; /* 34.485px */
-    letter-spacing: 0.304px;
-    position: absolute;
+    line-height: normal;
     margin: 0;
-    padding: 0;
+}
+
+.icon{
+    width: 19px;
+    height: 19px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 66px;
+    left: 1102px;
+    right: 319px;
+    bottom: 815px;
+    margin: 0;
 }

@@ -1,0 +1,84 @@
+.titulo {
+    top: 238px;
+    left: 135px;
+    width: 521.135px;
+    height: 191.042px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 78.65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133%; /* 104.605px */
+    letter-spacing: 1.966px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.texto {
+    top: 465.04px;
+    left: 136px;
+    width: 543.047px;
+    height: 102.893px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20.285px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%; /* 34.485px */
+    letter-spacing: 0.304px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.botao {
+    background: linear-gradient(94deg, #EED761 21.68%, #FFB9AF 79.85%);
+    border: 0px;
+    border-radius: 88.166px;
+    box-shadow: 0px 3.52663px 35.26627px 0px rgba(255, 185, 175, 0.50);
+    color: #FFF;
+    font-size: 21px;
+    height: 56.426px;
+    position: absolute;
+    width: 298px;
+}
+
+.card {
+    background-color: #FAFAFA;
+    border-radius: 7px;
+    filter: blur(0.2px);
+    height: 169px;
+    width: 239px;
+    position: relative;
+}
+
+.localidade {
+    color: #122330;
+    font-size: 16.071px;
+    margin: 0px;
+}
+
+.cards {
+    display: flex;
+    gap: 26px;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.cabecalhoCard {
+    display: flex;
+    gap: 80px;
+    justify-content: flex-start;
+    left: 24px;
+    position: absolute;
+    top: 20px;
+}
+
+.imagem {
+    border-radius: 2px;
+    left: 20px;
+    position: absolute;
+    top: 52px;
+}
+
